@@ -8,7 +8,7 @@ import { Input } from '../components/Input';
 import { Button } from '../components/Button';
 
 export function SignIn() {
-  const [name, setName] = useState('João');
+  const [name, setName] = useState('');
   const [password, setPassword] = useState('');
 
   const { colors } = useTheme();
